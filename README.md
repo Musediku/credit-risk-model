@@ -36,18 +36,17 @@ The original dataset was highly imbalanced (~78% non-default, 22% default). SMOT
 **Interpretation:** Logistic Regression achieves the highest recall (0.62), meaning it catches the most defaulters but with lower precision (more false positives). Random Forest with SMOTE and threshold 0.45 provides the best operational trade-off: recall ≈ 0.52, precision ≈ 0.51, F1 ≈ 0.515, ROC-AUC ≈ 0.751. This configuration balances catching defaulters while reducing false positives compared to logistic regression.
 
 ## Repository Structure
--
 credit-risk-model/
 │
 ├── notebooks/
-│ ├── experiments.ipynb # raw experiments, multiple models
-│ ├── report.ipynb # eplanation
+│   ├── experiments.ipynb  # raw experiments, multiple models
+│   └── report.ipynb       # final pipeline, explanations, and results
 │
-├── data/ # (optional) raw/processed data
+├── data/
+│   ├── (optional) raw/processed data
 │
-│
-├── README.md # project overview
---
+└── README.md              # project overview
+
 ## Next Steps
 
 - Build a pipeline for preprocessing → resampling → training → evaluation  
