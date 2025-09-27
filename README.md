@@ -49,7 +49,6 @@ credit-risk-model/
 │
 └── README.md              # project overview
 ---
----
 ```
 ## Next Steps
 
