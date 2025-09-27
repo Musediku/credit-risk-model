@@ -48,7 +48,6 @@ credit-risk-model/
 │   ├── (optional) raw/processed data
 │
 └── README.md              # project overview
----
 ```
 ## Next Steps
 
