@@ -45,7 +45,7 @@ credit-risk-model/
 │   └── report.ipynb       # final pipeline, explanations, and results
 │
 ├── data/
-│   ├── (optional) raw/processed data
+│   ├──processed data
 │
 └── README.md              # project overview
 ```
